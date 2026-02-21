@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="asp-net-core/Music.Api/Music.Api.csproj" />
+  <Project Path="asp-net-core/Music.Application/Music.Application.csproj" />
+  <Project Path="asp-net-core/Music.Domain/Music.Domain.csproj" />
+  <Project Path="asp-net-core/Music.Infrastructure/Music.Infrastructure.csproj" />
+</Solution>
