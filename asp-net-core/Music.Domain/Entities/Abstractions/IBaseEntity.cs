@@ -1,7 +1,7 @@
 ﻿namespace Music.Domain.Entities.Abstractions
 {
-    public interface IBaseEntity<T>
+    public interface IBaseEntity<TId>
     {
-        public T Id { get; set; }
+        public TId Id { get; set; }
     }
 }

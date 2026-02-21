@@ -1,7 +1,7 @@
 ﻿namespace Music.Domain.Entities.Abstractions
 {
-    public abstract class BaseEntity<T> : IBaseEntity<T>
+    public abstract class BaseEntity<TId> : IBaseEntity<TId>
     {
-        public required T Id { get ; set; }
+        public required TId Id { get ; set; }
     }
 }

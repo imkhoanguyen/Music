@@ -1,10 +1,10 @@
 ﻿namespace Music.Domain.Entities.Abstractions
 {
-    public interface IDateTracking<T>
+    public interface IDateTracking<TUserId>
     {
         public DateTimeOffset? CreatedAt { get; set; }
-        public T? CreatedBy { get; set; }
+        public TUserId? CreatedBy { get; set; }
         public DateTimeOffset? ModifiedAt { get; set; }
-        public T? ModifiedBy { get; set; }
+        public TUserId? ModifiedBy { get; set; }
     }
 }
