@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/asp-net-core/Music.Infrastructure/Migrations
+/asp-net-core/Music.Api/appsettings.Development.json
