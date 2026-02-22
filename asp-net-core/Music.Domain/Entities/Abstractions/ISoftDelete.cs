@@ -2,8 +2,8 @@
 {
     public interface ISoftDelete<TUserId>
     {
-        public bool IsDeleted { get; set; }
-        public DateTimeOffset? DeletedAt { get; set; }
-        public TUserId? DeletedBy { get; set; }
+        public bool IsDeleted { get; }
+        public DateTimeOffset? DeletedAt { get; }
+        public TUserId? DeletedBy { get; }
     }
 }

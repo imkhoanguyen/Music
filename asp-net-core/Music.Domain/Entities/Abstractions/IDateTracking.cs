@@ -2,9 +2,9 @@
 {
     public interface IDateTracking<TUserId>
     {
-        public DateTimeOffset? CreatedAt { get; set; }
-        public TUserId? CreatedBy { get; set; }
-        public DateTimeOffset? ModifiedAt { get; set; }
-        public TUserId? ModifiedBy { get; set; }
+        public DateTimeOffset? CreatedAt { get; }
+        public TUserId? CreatedBy { get; }
+        public DateTimeOffset? ModifiedAt { get; }
+        public TUserId? ModifiedBy { get; }
     }
 }
