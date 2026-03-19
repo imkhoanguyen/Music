@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Music.Domain.Entities;
 
 namespace Music.Infrastructure.EFCore
@@ -13,6 +13,7 @@ namespace Music.Infrastructure.EFCore
         #region DbSets
 
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Singer> Singers { get; set; }
 
         #endregion DbSets
 
